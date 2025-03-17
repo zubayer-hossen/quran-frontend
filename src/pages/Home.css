@@ -1,0 +1,117 @@
+/* Global Styles */
+.home-container {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    background-color: #f8f9fa;
+}
+
+/* Navbar */
+.custom-navbar {
+    background: linear-gradient(90deg, #1e3a8a, #4f46e5, #9333ea);
+    padding: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+}
+
+.custom-toggler {
+    border: none;
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.nav-link {
+    color: white !important;
+    font-size: 1.1rem;
+    margin: 0 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+    color: #facc15 !important;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.nav-dropdown {
+    background-color: white !important;
+}
+
+.nav-dropdown .dropdown-item:hover {
+    background-color: #facc15 !important;
+    color: black !important;
+}
+
+/* Hero Section */
+.hero {
+    background: url("https://source.unsplash.com/1600x900/?islamic,mosque") no-repeat center;
+    background-size: cover;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 40px;
+    border-radius: 15px;
+}
+
+.hero-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.hero-btn {
+    font-size: 1.2rem;
+    padding: 12px 25px;
+    border-radius: 30px;
+    background-color: #facc15;
+    color: black;
+}
+
+
+
+/* Register Section */
+.register-section {
+    background-color: #facc15;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.cta-btn {
+    font-size: 1.2rem;
+    padding: 12px 25px;
+    border-radius: 30px;
+    background-color: #1e3a8a;
+    color: white;
+}
+
+/* Footer */
+.footer {
+    background: linear-gradient(90deg, #4f46e5, #9333ea, #1e3a8a);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.credit {
+    font-size: 1rem;
+    margin-top: 5px;
+}
+
+.zubayer {
+    font-weight: bold;
+    color: #facc15;
+}

@@ -1,1 +1,1 @@
-export const baseUrl = "https://quran-backend-b49d.onrender.com"
+export const baseUrl = "https://quran-backend-1vkt.onrender.com"
